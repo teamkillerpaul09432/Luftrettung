@@ -19,6 +19,7 @@ const navLinks = [
   },
   { href: "/einsatzgebiet", label: "Einsatzgebiet" },
   { href: "/flotte", label: "Unsere Flotte" },
+  { href: "/presse", label: "Presse" },
   {
     label: "Bewerbungsinfos",
     children: [
