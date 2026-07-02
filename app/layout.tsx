@@ -7,6 +7,7 @@ const geist = Geist({ subsets: ['latin'] })
 const geistMono = Geist_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"),
   title: 'Christoph 2 | Luftrettung Frankfurt',
   description:
     'Rettungshubschrauber Christoph 2 - Seit 1972 im Dienst für das Rhein-Main-Gebiet. Schnelle Hilfe aus der Luft bei medizinischen Notfällen.',
